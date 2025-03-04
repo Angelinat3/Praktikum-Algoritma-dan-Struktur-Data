@@ -13,16 +13,19 @@ attributes and methods? Please explain!
 Yes, if there's no attributes and methods, we can't declare or gives the input to proceed
 
 2. Does class Rectangle have constructor? If not, why we instantiate the object as follows?
+
 ![image](https://github.com/user-attachments/assets/987e8fa8-c128-4312-8d1c-bb13694a7a91)
 
 Because we can instantiate the object without using any arguments
 
 3. What’s the meaning of this line of code?
+
 ![image](https://github.com/user-attachments/assets/130e236d-1d55-46ad-ad07-a9ce5e1e57e2)
 
 To declare a new array
 
 4. What’s the meaning of these lines of code?
+
 ![image](https://github.com/user-attachments/assets/66aa8680-f057-46d2-aefd-4c089e3c754d)
 
 To create an array from Rectangle class
