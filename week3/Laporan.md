@@ -10,6 +10,7 @@
 1.2.3 Questions
 1. Based on part 1.2, does the class that are going to be used as an array of object must have
 attributes and methods? Please explain!
+
 Yes, if there's no attributes and methods, we can't declare or gives the input to proceed
 
 2. Does class Rectangle have constructor? If not, why we instantiate the object as follows?
@@ -31,14 +32,15 @@ To declare a new array
 To create an array from Rectangle class
 
 5. Why ArrayOfObject class and Rectangle class should be separated?
-To specific a class in case there's some input changes, it didn't affect the Rectangle class
 
+To specific a class in case there's some input changes, it didn't affect the Rectangle class
 
 1.3.3 Questions
 1. Does array of object can be implemented on 2D array?
 Yes, it can
 
 2. If yes, then please give an example. Otherwise, please explain.
+
 "rectangleArray[i][j] = new Rectangle();
 System.out.println("Rectangle [" + i + "][" + j + "]");
 
@@ -53,5 +55,7 @@ will be an error when we run this code, why?
 
 1.4.3 Questions
 1. Can we have more than one constructor in one class? Please explain.
+
 Yes we can in case we need a different value from it's default one
+
 2. Create a Triangle class as follows.
