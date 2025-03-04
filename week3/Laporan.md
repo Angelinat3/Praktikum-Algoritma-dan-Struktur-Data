@@ -7,7 +7,7 @@
 
 # JOBSHEET III #1 ARRAY OF OBJECTS
 
-1.2.3 Questions
+## 1.2.3 Questions
 1. Based on part 1.2, does the class that are going to be used as an array of object must have
 attributes and methods? Please explain!
 
@@ -35,7 +35,7 @@ To create an array from Rectangle class
 
 To specific a class in case there's some input changes, it didn't affect the Rectangle class
 
-1.3.3 Questions
+## 1.3.3 Questions
 1. Does array of object can be implemented on 2D array?
 Yes, it can
 
@@ -53,7 +53,7 @@ rectangleArray[i][j].width = sc.nextInt();"
 3. There is a Square class that has an attribute side with integer as its data type. There
 will be an error when we run this code, why?
 
-1.4.3 Questions
+## 1.4.3 Questions
 1. Can we have more than one constructor in one class? Please explain.
 
 Yes we can in case we need a different value from it's default one
