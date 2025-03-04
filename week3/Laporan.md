@@ -41,14 +41,8 @@ Yes, it can
 
 2. If yes, then please give an example. Otherwise, please explain.
 
-"rectangleArray[i][j] = new Rectangle();
-System.out.println("Rectangle [" + i + "][" + j + "]");
+![image](https://github.com/user-attachments/assets/1b4a831e-828c-4a56-afda-9c1acc815b79)
 
-System.out.print("Input length: ");
-rectangleArray[i][j].length = sc.nextInt();
-
-System.out.print("Input width: ");
-rectangleArray[i][j].width = sc.nextInt();"
 
 3. There is a Square class that has an attribute side with integer as its data type. There
 will be an error when we run this code, why?
