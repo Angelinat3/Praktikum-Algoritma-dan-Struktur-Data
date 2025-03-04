@@ -9,7 +9,7 @@ Yes, if there's no attributes and methods, we can't declare or gives the input t
 Because we can instantiate the object without using any arguments
 
 3. What’s the meaning of this line of code?
-![image](https://github.com/user-attachments/assets/130e236d-1d55-46ad-ad07-a9ce5e1e57e2)
+   ![image](https://github.com/user-attachments/assets/130e236d-1d55-46ad-ad07-a9ce5e1e57e2)
 
 To declare a new array
 
