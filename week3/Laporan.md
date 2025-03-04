@@ -1,3 +1,12 @@
+|  | Algorithm and Data Structure |
+|--|--|
+| NIM |  244107020076 |
+| Nama |  Angelina Thennessa Jo |
+| Kelas | TI - 1I |
+| Repository | [link] (https://github.com/Angelinat3/Praktikum_Algoritma_Dan_Struktur_Data.git) |
+
+# JOBSHEET III #1 ARRAY OF OBJECTS
+
 1.2.3 Questions
 1. Based on part 1.2, does the class that are going to be used as an array of object must have
 attributes and methods? Please explain!
