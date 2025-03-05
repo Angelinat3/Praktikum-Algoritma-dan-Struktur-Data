@@ -9,7 +9,6 @@ public class Cube {
         double sideLength;
 
         do {
-            // Display menu and accept user input for the calculation type
             System.out.println("Cube Calculator Menu:");
             System.out.println("1. Calculate Volume");
             System.out.println("2. Calculate Surface Area");
