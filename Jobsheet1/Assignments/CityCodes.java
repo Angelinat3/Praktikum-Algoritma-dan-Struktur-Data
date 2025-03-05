@@ -9,7 +9,6 @@ public class CityCodes {
             "PEKALONGAN", "SEMARANG", "SURABAYA", "MALANG", "TEGAL"
         };
 
-        // Check if both arrays have the same length
         if (CODE.length != CITY.length) {
             System.out.println("Error: The length of CODE and CITY arrays must be the same.");
             return;
