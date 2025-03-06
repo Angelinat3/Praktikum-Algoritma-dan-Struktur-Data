@@ -7,7 +7,7 @@
 
 # JOBSHEET #2 OBJECTS
 
-2.1.3 Question
+## 2.1.3 Question
 
 1. Mention two characteristics of a class or object!
  - attributes = Data or properties that define the object. Object without attributes is just a helper
@@ -44,7 +44,7 @@ it will analyze that how much gpa is the student input. After the user input the
 The criteria program use are:
 - bigger or equal than 3.5, 3.0, 2.0, 0.0
 
-2.2.3 Question
+## 2.2.3 Question
 1. Show the line of code in StudentMain used for instantiation. What is the name of the created object?
    Student03 student1 = new Student03();
 2. How do you access attributes and methods of an object?
@@ -58,7 +58,7 @@ The criteria program use are:
 3. Why does the output of the first and second calls to print() differ?
    for printing student1 and input it on StudentMain by following the Object we used on Student03
 
-2.3.3 Question
+## 2.3.3 Question
 1. Show the line of code in Student used to declare the parameterized constructor!
 
 public Student03(String id, String name, String cls, double gpa) {
