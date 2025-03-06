@@ -23,6 +23,7 @@
  - void updateGPA(double newGPA)
  - String evaluate() (If-else loop)
 4. Modify the updateGPA() method to validate that the input IPK is within the range of 0.0 to 4.0. If it is out of range, display a message: "Invalid IPK. Must be between 0.0 and 4.0."
+
 String evaluate() { 
     if (gpa >= 3.5) {
         return "Excellent";
@@ -36,6 +37,7 @@ String evaluate() {
         return "Invalid IPK. Must be between 0.0 and 4.0.";
     }
 }
+
 5. Explain how the evaluate() method evaluates student performance. What criteria does it use, 
 and what does it return?
 it will analyze that how much gpa is the student input. After the user input the gpa the program is started to analayze with the function we input 
@@ -58,6 +60,7 @@ The criteria program use are:
 
 2.3.3 Question
 1. Show the line of code in Student used to declare the parameterized constructor!
+
 public Student03(String id, String name, String cls, double gpa) {
     studentID = id;
     this.name = name;
@@ -78,5 +81,3 @@ So if the default constructor is removed, the object cannot be created without a
 No need, because the method in the Student it can be called in random order
 
 5. Create a new object named student<StudentName> using the parameterized constructor from Student class.
-
->>>>>>> origin/main
