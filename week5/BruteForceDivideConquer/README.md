@@ -1,18 +1,15 @@
-## Getting Started
+|  | Algorithm and Data Structure |
+|--|--|
+| NIM |  244107020076 |
+| Nama |  Angelina Thennessa Jo |
+| Kelas | TI - 1I |
+| Repository | [link] (https://github.com/Angelinat3/Praktikum_Algoritma_Dan_Struktur_Data.git) |
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# JOBSHEET V BRUTE FORCE AND DIVIDE CONQUER
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 5.2.1. Experiment Steps
+1. Create a new project named BruteForceDivideConquer (or continue the previous project) and a
+package called week5.
+2. Create a new class, Factorial
+3. Complete the Factorial class with the attributes and methods as illustrated in the class
+diagram above.
