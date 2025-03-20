@@ -7,6 +7,7 @@
 
 # JOBSHEET V BRUTE FORCE AND DIVIDE CONQUER
 
+## Calculating Factorial Using Brute Force and Divide and Conquer Algorithms
 ## 5.2.1. Experiment Steps
 1. Create a new project named BruteForceDivideConquer (or continue the previous project) and a package called week5.
 2. Create a new class, Factorial
@@ -43,3 +44,11 @@ FactorialDC if the "n" value is 1, then it is 1. "n-1" value will be multiplied 
 
 ## Calculating Exponentiation Using Brute Force and Divide and Conquer Algorithms
 ## 5.3.1. Experiment Steps
+
+1. In the week5 package, create a new class named Power. Inside this class, define attributes for the
+base number and its exponent.
+2. Add parameterized constructor
+3. Add powerBF()method
+4. Add powerDC()method
+
+![Screenshot 2025-03-21 020837](https://github.com/user-attachments/assets/966ea799-eca3-4d11-a267-f5d878cb8e2d)
