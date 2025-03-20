@@ -42,4 +42,4 @@ FactorialBF initial value is 1, then multiplies by each integer 1 to "n" using l
 FactorialDC if the "n" value is 1, then it is 1. "n-1" value will be multiplied by "n".
 
 ## Calculating Exponentiation Using Brute Force and Divide and Conquer Algorithms
-##5.3.1. Experiment Steps
+## 5.3.1. Experiment Steps
