@@ -115,13 +115,49 @@ And if it's value is even, "powerDC(n, e / 2)" * 2, then the answer will multipl
 
 ## 5.4.3. Questions
 1. Why is mid variable needed in totalDC()method?
+
+The "mid" variable will split the aray into a half because it needed for divide and conquer approach.
+It will calculated the results and bring back together as "sum".
+
+
 2. Explain the following statements in totalDC()method?
 
 ![image](https://github.com/user-attachments/assets/083dac3a-e729-4e25-8d9c-7093212f8d86)
+
+Giving a calculation from the "l" to "lsum".
+Ang the "r" to "rsum".
 
 3. Why is it necessary to sum the results of lsum and rsum as shown below??
 
 ![image](https://github.com/user-attachments/assets/b39af088-3de4-4464-b40f-f6a5bf924668)
 
+Because it combine the calculation of TotalDC, the lsum and rsum.
+
 4. What is the base case of totalDC()method?
+
+The base case of "TotalDC()" method, when the "l" = "r", it will put the "returns" array "l" or "r" because it is equal.
+
 5. Draw a conclusion about how totalDC() works!
+
+The base case of "TotalDC()" method, when the "l" = "r", it will put the "returns" array "l" or "r" as one element
+The array will be divided into two by the mid then it will calculate the lsum and combine the results of the divided as lsum + rsum = result.
+
+
+## 5.5. Assignments
+## A university has a list of student grades with data as shown in the table below
+
+![image](https://github.com/user-attachments/assets/5ac1b6e8-ef48-4f06-9efd-ec61670a1424)
+
+a) Find the highest Midterm Score (UTS) using the Divide and Conquer approach.
+
+![image](https://github.com/user-attachments/assets/71362ed5-d1d0-467e-b6ee-92be6caa9fc3)
+
+
+b) Find the lowest Midterm Score (UTS) using the Divide and Conquer approach.
+
+![image](https://github.com/user-attachments/assets/84bac9a9-f1ed-47c2-a12c-20f00cd33847)
+
+
+c) Calculate the average Final Score (UAS) of all students using the Brute Force approach.
+
+![image](https://github.com/user-attachments/assets/49947e81-fbcd-4241-85dd-1c659ace5514)
