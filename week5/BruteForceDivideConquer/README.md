@@ -116,9 +116,11 @@ And if it's value is even, "powerDC(n, e / 2)" * 2, then the answer will multipl
 ## 5.4.3. Questions
 1. Why is mid variable needed in totalDC()method?
 2. Explain the following statements in totalDC()method?
+
 ![image](https://github.com/user-attachments/assets/083dac3a-e729-4e25-8d9c-7093212f8d86)
 
 3. Why is it necessary to sum the results of lsum and rsum as shown below??
+
 ![image](https://github.com/user-attachments/assets/b39af088-3de4-4464-b40f-f6a5bf924668)
 
 4. What is the base case of totalDC()method?
