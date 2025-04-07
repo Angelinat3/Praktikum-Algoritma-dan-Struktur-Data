@@ -1,5 +1,3 @@
-package Jobsheet2;
-
 public class LecturerMain03 {
     private String lecturerID;
     private String name;

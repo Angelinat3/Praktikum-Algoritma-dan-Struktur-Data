@@ -1,5 +1,3 @@
-package Jobsheet2;
-
 public class StudentMain {
     public static void main(String[] args) {
         Student03 student1 = new Student03();

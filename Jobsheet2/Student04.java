@@ -1,5 +1,3 @@
-package Jobsheet2;
-
 public class Student04 {
     static String studentID;
     String name;
