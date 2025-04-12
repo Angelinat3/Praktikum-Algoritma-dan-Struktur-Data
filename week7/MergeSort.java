@@ -1,5 +1,6 @@
 public class MergeSort {
 
+    
     public void MergeSort(int[] data) {
     }
 
@@ -34,5 +35,13 @@ public class MergeSort {
                 sort(data, mid + 1, right);
                 merge(data, left, mid, right);
             }
+        }
+        
+        public void printArray(int arr[]) {
+            int n = arr.length;
+            for (int i = 0; i < n; i++) {
+                System.out.print(arr[i] + " ");
+            }
+            System.out.println();
         }
 }

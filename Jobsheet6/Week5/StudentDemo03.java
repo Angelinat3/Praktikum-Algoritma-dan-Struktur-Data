@@ -1,6 +1,6 @@
 public class StudentDemo03 {
     public static void main(String[] args) {
-        TopStudents topStudents = new TopStudents(5);
+        TopStudent03 topStudents = new TopStudent03(5);
           
         topStudents.add(new Student03("2201", "Alice", "A", 3.9));
         topStudents.add(new Student03("2202", "Bob", "B", 3.7));
@@ -13,6 +13,14 @@ public class StudentDemo03 {
 
         topStudents.bubbleSort();
         System.out.println("Sorted student list (by GPA, descending):");
+        topStudents.print();
+
+        topStudents.selectionsort();
+        System.out.println("Sorted student list (by GPA, ascending) using selection sort:");
+        topStudents.print();
+
+        topStudents.insertionsort();
+        System.out.println("Sorted student list (by GPA, ascending) using insertion sort:");
         topStudents.print();
     }
 }
