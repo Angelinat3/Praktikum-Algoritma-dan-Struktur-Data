@@ -5,7 +5,7 @@
 | Kelas | TI - 1I |
 | Repository | [link] (https://github.com/Angelinat3/Praktikum_Algoritma_Dan_Struktur_Data.git) |
 
-# JOBSHEET 11 
+# JOBSHEET 12
 ## 2.1 Experiment 1: Implementing Single Linked List
 
 1. In the project created for this semester, create a new package named week12.
