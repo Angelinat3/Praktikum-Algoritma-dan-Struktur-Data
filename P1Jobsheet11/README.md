@@ -48,9 +48,15 @@ Output Verification
 
 ## 2.1.2 Questions!
 1. Why does compiling the program code result in the message "Linked List is Empty" on the first line?
+Because after putting the SingleLinkedList object, the sll print method is executed without element so it does the print out.
 2. Explain the general purpose of the variable temp in each method!
 3. Modify the code so that data can be added via keyboard input!
+
+![image](https://github.com/user-attachments/assets/8f7831d3-34a4-46a7-bf22-67adc936a0fc)
+
+
 4. What would happen if we did not use the tail attribute? Would it affect the code implementation? Please explain.
+No, but the process will take much longer due some operation for adding or removing the elements, less efficiency.
 
 # 2.2 Experiment 2: Accessing Element in Single Linked List
 1. Open SingleLinkedList class that is already created in Experiment 1.
@@ -89,7 +95,18 @@ Output Verification
 
 ## 2.2.3 Questions
 1. Why is the break keyword used in the remove function? Explain!
+Because after finish the "next" to node loop, it should be terminated and run the necessary operations.
 2. Explain the purpose of the code below in the remove method.
 
 ![image](https://github.com/user-attachments/assets/5e4c9740-74db-40c2-a1fd-92324523b75a)
 
+## 3. Assignments
+Create a queue-based program for student service operations with the following requirements:
+a. Implement the queue using a Linked List-based Queue.
+b. The program should be a new project, not a modification of an existing example.
+c. When a student wants to join the queue, they must register their information.
+d. Include functions to check if the queue is empty, check if it is full, and clear the queue.
+e. Implement adding a student to the queue.
+f. Implement calling the next student in the queue.
+g. Display the first (front) and last (rear) student in the queue.
+h. Display the total number of students still in the queue.
