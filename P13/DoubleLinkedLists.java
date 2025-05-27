@@ -50,7 +50,48 @@ public class DoubleLinkedLists {
             temp = temp.next;
         }
         if (temp == null)
-        System.out.println("Insertion failed. Data (" + key + ") not found!!");
+        System.out.println("Insertion failed. Data (" + key + ") not found!! ");
+    }
+
+    void removeFirst() {
+        if (isEmpty()) {
+            System.out.println("Double linked list is currently empty!!");
+        } else if (head == tail) {
+            head = tail = null;
+        } else {
+            head = head.next;
+            head.prev = null;
+        }
+    }
+
+    void removeLast() {
+        if (isEmpty()) {
+            System.out.println("Double linked list is currently empty!!");
+        } else if (head == tail) {
+            head = tail = null;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
+        }
+    }
+
+    void remove(int index) {
+        if (isEmpty()) {
+            System.out.println("Double linked list is currently empty!!");
+        } else if (index == 0) {
+            removeFirst();
+        } else {
+            Node03 temp = head;
+            for (int i = 0; i < index; i++) {
+                temp = temp.next;
+            }
+            if (temp == tail) {
+                removeLast();
+            } else if (temp != null) {
+                temp.prev.next = temp.next;
+                temp.next.prev = temp.prev;
+            }
+        }
     }
 
     void print() {
