@@ -98,3 +98,54 @@ In the insert after we need to check weather head = tail mean data is empty, yes
 After adding the data we did’t break the code so it’s still scanning to the end of the data
 
 # Experiment 2
+
+1. Create the removeFirst() method inside the DoubleLinkedLists class.
+
+![image](https://github.com/user-attachments/assets/1c4fec58-8bd8-4431-b1ad-61b98a1e302e)
+
+2. Create the removeLast() method inside the DoubleLinkedLists class.
+
+![image](https://github.com/user-attachments/assets/a99b2082-a1a7-4e28-8049-f814aa4da315)
+
+3. Also, add the remove(int index) method to the DoubleLinkedLists class and observe the results.
+
+![image](https://github.com/user-attachments/assets/0e6e6c12-1202-4e69-af51-11ab0579c89f)
+
+4. Reopen the main method in the DoubleLinkedListsMain class and add the following statements to delete data:
+
+![image](https://github.com/user-attachments/assets/9e6ed571-62b2-4a3f-b710-5b80d79e64ad)
+
+## Output Verification
+
+![image](https://github.com/user-attachments/assets/28c98e5e-ec33-48c2-9a50-c9f629acd564)
+
+## 3.3 Questions
+
+1. What is the use of the following statement in the removeFirst() method?
+
+![image](https://github.com/user-attachments/assets/936f5390-ab8c-43c4-ba8e-ef1c449f0846)
+
+2. Why is it important to include conditions and processes like the ones below in both removeFirst() and removeLast() methods? Explain!
+
+![image](https://github.com/user-attachments/assets/4b8fcca4-44ec-47ad-8898-953f00fe9abe)
+
+3. In the removeLast() method, if there is no tail attribute inside DoubleLinkedLists class, what approach or changes need to be made to the code of the method?
+
+4. What is the purpose of the initial if(isEmpty()) check in the remove(int index) method?
+
+5. Explain how the method handles the removal of a node at the beginning (index == 0) and at the end (temp == tail) of the linked list.
+
+6. Describe how the method updates the links between nodes when removing a node from the middle of the linked list.
+
+7. The remove(int index) method currently does not check for negative index or index that exceed the size of the DoubleLinkedLists. Please add statements to handle these cases
+
+# Assignments
+1. Add an add() function to the DoubleLinkedList class to insert a node at a specific index.
+
+2. Add a removeAfter() function to the DoubleLinkedList class to delete the node that comes after the node containing a specified key.
+
+3. Add the methods getFirst(), getLast(), and getIndex() to retrieve data from the head node, tail node, and node at a specific index, respectively.
+
+4. Add a method getSize() to return the number of DoubleLinkedLists data!
+
+5. Add method indexOf() to return the index of a specific data specified by key (nim)!
