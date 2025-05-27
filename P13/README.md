@@ -54,9 +54,11 @@
 
 ## 2.3 Questions
 1. Explain the difference between a singly linked list and a doubly linked list.
+
 Double linked list have 2 pointer prev and next with 2 travesal head-tail and vice versa
 
 2. Observe the Node class, which contains the attributes next and prev. What are the purposes of these attributes?
+
 next = linked to the next node prev = to the prev pointer
 
 3. Examine the constructor in the DoubleLinkedLists class. What is the purpose of this constructor?
@@ -72,22 +74,25 @@ There is no data
 addFirst = we need to check if it still empty or not
 
 5. In the addFirst() method, what does the statement head.prev = newNode mean?
+
 Connect previous pointer of head to the newNode
 
 6. In the insertAfter() method, what is the meaning of current.next.prev = newNode?
+
 Connect tmp to the previous linked to newNode
 
 7. In the experiment 1 code, in which method the traversal process implemented? What is the meaning of temp = temp.next ?
+
 InsertAfter & print, we move temp to the next node
 
 8. In the insertAfter() method, what is the following code for?
 
 ![image](https://github.com/user-attachments/assets/20297246-9cf9-4fce-97cd-e3bf9548c158)
 
-In the insert after we need to check weather head = tail mean data is empty, yes; it will error because there is temp.next.prev = newNode (if it empty we need to access null object, since there is no object then.. it’s error)
-
 Do we have to implement it? What if we remove it?
 
-9. In the insertAfter() what is this statement if(temp.data.nim.equalsIgnoreCase(key)) for?
-After adding the data we did’t break the code so it’s still scanning to the end of the data
+In the insert after we need to check weather head = tail mean data is empty, yes; it will error because there is temp.next.prev = newNode (if it empty we need to access null object, since there is no object then.. it’s error)
 
+9. In the insertAfter() what is this statement if(temp.data.nim.equalsIgnoreCase(key)) for?
+
+After adding the data we did’t break the code so it’s still scanning to the end of the data
