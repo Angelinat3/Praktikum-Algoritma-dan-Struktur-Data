@@ -16,6 +16,5 @@ public class BinaryTreeArrayMain03 {
     
     System.out.println("In-order traversal:");
     bta.traverseInOrder(0);
-    
     }
 }
