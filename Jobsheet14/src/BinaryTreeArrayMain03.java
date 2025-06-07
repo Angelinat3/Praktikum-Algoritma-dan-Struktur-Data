@@ -1,7 +1,7 @@
 public class BinaryTreeArrayMain03 {
     public static void main(String[] args) {
 
-    BinaryTreeArray03 bta = new BinaryTreeArray0();
+    BinaryTreeArray03 bta = new BinaryTreeArray03();
     Student03 m1 = new Student03("244107020138", "Devin", "TI-1I", 3.57);
     Student03 m2 = new Student03("244107020023", "Dewi", "TI-1I", 3.85);
     Student03 m3 = new Student03("244107020225", "Wahyu", "TI-1I", 3.21);
